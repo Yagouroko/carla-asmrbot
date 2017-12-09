@@ -11,7 +11,7 @@ bot.on('ready', function() {
 bot.on('message', message => {
     if(message.content[0] === PREFIX) {
         if(message.content === '.help') {
-            message.channel.send('test');
+            message.channel.send('Liste des commandes: .insta , .youtube , / Ce bot contient des commandes cachées :)');
         }
     }
 });
