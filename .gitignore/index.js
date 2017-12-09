@@ -13,7 +13,7 @@ bot.login("Mzg4NzM2NzY2MzU5NjMzOTIx.DQ1VwQ.bBA9lVDyF6G4q33wPkDlfuNUyKY");
 
 bot.on('message', message => {
     if (message.content === prefix + "help"){
-        message.channel.sendMessage("Liste des commandes: \n - .insta = Insta de Carla \n - .youtube = Chaîne de Carla \n - .newvideo = Nouvelle vidéo de Carla ! \n *Ce bot contient des commandes cachées :)*");
+        message.channel.sendMessage("Liste des commandes: \n - .insta = Insta de Carla\n - .newvideo = Nouvelle vidéo de Carla ! \n *Ce bot contient des commandes cachées :)*");
         console.log("Help effectué !");
     }
 
