@@ -12,7 +12,7 @@ bot.login("Mzg4NzM2NzY2MzU5NjMzOTIx.DQ1VwQ.bBA9lVDyF6G4q33wPkDlfuNUyKY");
 
 
 bot.on('message', message => {
-    if (message.content(prefix + "help")){
+    if (message.content === prefix + "help"){
         message.channel.sendMessage("Test: \n -.help");
     }
 });
