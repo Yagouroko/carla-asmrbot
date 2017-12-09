@@ -47,8 +47,8 @@ bot.on('message', message => {
         console.log("leia effectué !");
     }
 
-    if (message.content === prefix + "makaos"){
-        message.channel.sendMessage("Salut mua c'est Makaos ! :p");
+    if (message.content === prefix + "makoas"){
+        message.channel.sendMessage("Salut mua c'est Makoas ! :p");
         console.log("makaos effectué");
     }
 
