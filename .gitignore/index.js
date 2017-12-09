@@ -12,16 +12,6 @@ bot.on('message', message => {
     if(message.content[0] === PREFIX) {
         if(message.content === '.help') {
             message.channel.send('Liste des commandes:');
-            
-bot.on('message', message => {
-    if(message.content[0] === PREFIX) {
-        if(message.content === '.insta') {
-            message.channel.send('Instagram de Carla ASMR: <none>');
-            
-bot.on('message', message => {
-    if(message.content[0] === PREFIX) {
-        if(message.content === '.fabriquant') {
-            message.channel.send('Made by MhBurgerKing');
         }
     }
 });
