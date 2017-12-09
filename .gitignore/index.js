@@ -1,11 +1,12 @@
-const Discord = require("discord.js");
+const Discord = require('discord.js');
+const bot = new Discord.Client();
 
-var bot = new Discord.Client();
-
-bot.on("ready", function() {
+const PREFIX = "!";
+bot.on('ready', function() {
     bot.user.setGame("CarlaAsmrBot, !help");
     console.log("Le bot a bien ete connecte");
 });
+
 
 bot.on('message', message => {
     if(message.content[0] === PREFIX) {
