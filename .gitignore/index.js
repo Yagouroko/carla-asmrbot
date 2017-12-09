@@ -37,8 +37,14 @@ bot.on('message', message => {
         console.log("carla effectué");
     }
 
-    if (message.content === prefix + "newvideo"){
+   if (message.content === prefix + "newvideo"){
         message.channel.sendMessage("Cette commande est en développement /!\ Chaîne de Carla: https://www.youtube.com/channel/UCqFI3r7Rlsdw6AVge-zvKfA ");
         console.log("newvideo effectué");
     }
+
+
+
+
+
+});
 
