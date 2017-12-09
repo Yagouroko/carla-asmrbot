@@ -37,19 +37,20 @@ bot.on('message', message => {
         console.log("carla effectué");
     }
 
-   if (message.content === prefix + "newvideo"){
+    if (message.content === prefix + "newvideo"){
         message.channel.sendMessage("Cette commande est en développement /!\ Chaîne de Carla: https://www.youtube.com/channel/UCqFI3r7Rlsdw6AVge-zvKfA ");
         console.log("newvideo effectué");
     }
     
     if (message.content === prefix + "leia"){
-        message.channel.sendMessage("Coucou tua ! xD");
+        message.reply("Coucou tua ! xD");
         console.log("leia effectué !");
     }
-    
+
     if (message.content === prefix + "makaos"){
         message.channel.sendMessage("Salut mua c'est Makaos ! :p");
         console.log("makaos effectué");
+    }
 
 
 
