@@ -43,7 +43,7 @@ bot.on('message', message => {
     }
     
     if (message.content === prefix + "leia"){
-        message.reply("Coucou tua ! xD");
+        message.reply("Coucou tua ! Mua c'est Leia Organa xD");
         console.log("leia effectué !");
     }
 
