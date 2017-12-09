@@ -4,7 +4,7 @@ const bot = new Discord.Client();
 var prefix = (".");
 
 bot.on('ready', function() {
-    bot.user.setGame("By MhBurgerKing. Command: .help");
+    bot.user.setGame("Command: .help");
     console.log("Le bot a bien ete connecte");
 });
 
