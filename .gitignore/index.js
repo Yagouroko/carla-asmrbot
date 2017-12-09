@@ -3,7 +3,7 @@ const bot = new Discord.Client();
 
 const PREFIX = ".";
 bot.on('ready', function() {
-    bot.user.setGame("CarlaAsmrBot, !help");
+    bot.user.setGame("CarlaAsmrBot, .help");
     console.log("Le bot a bien ete connecte");
 });
 
@@ -11,7 +11,7 @@ bot.on('ready', function() {
 bot.on('message', message => {
     if(message.content[0] === PREFIX) {
         if(message.content === '.help') {
-            message.channel.send('Liste des commandes:');
+            message.channel.send('test');
         }
     }
 });
