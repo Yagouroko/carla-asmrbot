@@ -18,13 +18,8 @@ bot.on('message', message => {
     }
 
     if (message.content === prefix + "insta"){
-        message.channel.sendMessage("Instagram de Carla: Inconnue pour l'instant /!\ Contacter MhBurgerKing pour afficher sur cette commande");
+        message.channel.sendMessage("Instagram de Carla: carla.asmr");
         console.log("Insta effectué");
-    }
-
-    if (message.content === prefix + "youtube"){
-        message.channel.sendMessage("Chaîne YouTube de Carla: https://www.youtube.com/channel/UCqFI3r7Rlsdw6AVge-zvKfA");
-        console.log("YouTube effectué");
     }
 
     if (message.content === prefix + "fabriquant"){
