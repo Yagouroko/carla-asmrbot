@@ -12,10 +12,12 @@ bot.on('message', message => {
     if(message.content[0] === PREFIX) {
         if(message.content === '.help') {
             message.channel.send('Liste des commandes: .insta , .youtube , / Ce bot contient des commandes cachées :)');
+            
 bot.on('message', message => {
     if(message.content[0] === PREFIX) {
         if(message.content === '.insta') {
             message.channel.send('Instagram de Carla ASMR:');
+            
 bot.on('message', message => {
     if(message.content[0] === PREFIX) {
         if(message.content === '.youtube') {
